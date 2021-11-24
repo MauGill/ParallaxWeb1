@@ -101,6 +101,27 @@ body {
       font-size: 1em;
       color: #fff; }
 
+@media screen and (max-width: 700px) {
+  body header {
+    padding: inherit;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    margin: 20px;
+    text-align: center; }
+    body header ul {
+      justify-content: inherit; }
+      body header ul li {
+        margin-left: inherit; }
+  body #text {
+    font-size: 12vh;
+    right: -700px; }
+  body .sec {
+    padding: 20px; }
+    body .sec h2 {
+      text-align: center;
+      font-size: 1.9em;
+      margin-bottom: 40px; } }
 /*# sourceMappingURL=estilo.sass.map */
 
 /*# sourceMappingURL=estilo.css.map */
